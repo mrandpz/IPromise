@@ -4,7 +4,7 @@
  * @Last Modified by: Mr.pz
  * @Last Modified time: 2021-01-30 17:42:51
  * 以上一个版本接下去，实现链式调用
- * 实现链式调用的第一个反应是 this，但是使用 this，会在多次调用then的时候，造成 this.value 和 callback的混乱 的混乱
+ * 实现链式调用的第一个反应是 this，但是使用 this，会在多次调用then的时候，造成 this.value 和 callback的混乱
  * 所以采用，每次调用then，也再创建一个promise 对象
  */
 
